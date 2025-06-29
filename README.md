@@ -1,7 +1,7 @@
 # FinSaathi — Financial Inclusion for Bharat’s Next Billion 🇮🇳
 
 ## 📜 Overview
-**FinSaathi** is a conceptual product prototype designed to bridge the financial gap for underserved communities in India’s Tier 2/3 cities and informal workforce. The solution focuses on delivering **accessible micro-credit, savings, and insurance tools** through a **gamified, community-driven platform** tailored to users with low financial literacy and limited digital trust.
+**FinSaathi** is conceptual product prototype designed to bridge the financial gap for underserved communities in India’s Tier 2/3 cities and informal workforce. The solution focuses on delivering **accessible micro-credit, savings, and insurance tools** through a **gamified, community-driven platform** tailored to users with low financial literacy and limited digital trust.
 
 ---
 
