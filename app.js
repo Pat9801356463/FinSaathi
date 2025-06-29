@@ -12,7 +12,7 @@ const ecoGenStore = {
       ecoIndex: 9.1,
       footprint: "Low",
       tags: ["Organic", "Plastic-Free"],
-      imgUrl: "/assets/shampoo.png",
+      imgUrl: "assets/shampoo.png",
       type: "Hair Care",
       peerBuys: 10
     },
@@ -57,7 +57,9 @@ function renderProducts() {
         <img src="${product.imgUrl}" alt="${product.title}" class="rounded mb-3 w-full h-48 object-cover" />
         <h3 class="text-xl font-semibold">${product.title}</h3>
         <p class="text-sm text-gray-500 mb-2">Eco Rating: ${"🌿".repeat(Math.floor(product.ecoIndex))}</p>
-        <div class="text-sm text-gray-600 mb-2">${product.tags.map(tag => `<span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded mr-1">${tag}</span>`).join("")}</div>
+        <div class="text-sm text-gray-600 mb-2">
+          ${product.tags.map(tag => `<span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded mr-1">${tag}</span>`).join("")}
+        </div>
         <div class="flex justify-between items-center mb-2">
           <span class="text-green-600 font-bold">$${product.cost.toFixed(2)}</span>
           <span class="line-through text-sm text-gray-400">$${product.mrp.toFixed(2)}</span>
@@ -80,6 +82,29 @@ function addToCart(uid) {
   alert(`${product.title} added to cart!`);
 }
 
-// Render when DOM loads
-window.addEventListener("DOMContentLoaded", renderProducts);
+document.addEventListener("DOMContentLoaded", () => {
+  renderProducts();
+
+  // Explore Now scroll
+  document.getElementById("explore-btn").addEventListener("click", () => {
+    document.getElementById("product-grid").scrollIntoView({ behavior: "smooth" });
+  });
+
+  // Products link scroll
+  document.getElementById("products-link").addEventListener("click", (e) => {
+    e.preventDefault();
+    document.getElementById("product-grid").scrollIntoView({ behavior: "smooth" });
+  });
+
+  // Optional placeholders for nav links
+  document.getElementById("home-link").addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  document.getElementById("dashboard-link").addEventListener("click", (e) => {
+    e.preventDefault();
+    alert("Dashboard coming soon!");
+  });
+});
 
