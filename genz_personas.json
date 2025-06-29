@@ -1,0 +1,185 @@
+{
+  "Persona 1": {
+    "Name": "Arya Sharma",
+    "Age": 21,
+    "Location": "Mumbai, Maharashtra",
+    "Occupation": "College Student (Fashion Design)",
+    "Demographics": {
+      "Income": "\u20b915,000/month (part-time + allowance)",
+      "Education": "Undergraduate",
+      "Family_Size": "Nuclear family (4 members)",
+      "Tech_Savviness": "High"
+    },
+    "Sustainability_Values": {
+      "Primary_Drivers": [
+        "Climate anxiety about future",
+        "Influence of social media activism",
+        "Peer group pressure to be eco-conscious",
+        "Desire to align purchases with values"
+      ],
+      "Sustainability_Priorities": [
+        "Cruelty-free beauty products",
+        "Sustainable fashion choices",
+        "Zero-waste lifestyle",
+        "Supporting local artisans"
+      ]
+    },
+    "Digital_Behavior": {
+      "Platform_Usage": {
+        "Instagram": "4+ hours daily",
+        "YouTube": "2-3 hours daily",
+        "Discord": "1-2 hours daily",
+        "TikTok": "2+ hours daily"
+      },
+      "Shopping_Habits": [
+        "Discovers brands through Instagram influencers",
+        "Reads reviews extensively before purchasing",
+        "Shares purchases on social media",
+        "Prefers mobile shopping over desktop",
+        "Uses multiple apps to compare prices"
+      ],
+      "Content_Preferences": [
+        "Short-form video content",
+        "Behind-the-scenes brand stories",
+        "User-generated content",
+        "Influencer collaborations",
+        "Interactive polls and quizzes"
+      ]
+    },
+    "Goals": [
+      "Build a sustainable wardrobe on a budget",
+      "Discover authentic eco-friendly brands",
+      "Learn about sustainable living practices",
+      "Connect with like-minded communities"
+    ],
+    "Pain_Points": [
+      "Limited budget for sustainable products",
+      "Difficulty verifying sustainability claims",
+      "Overwhelmed by too many product choices",
+      "Slow delivery times affecting instant gratification needs"
+    ],
+    "EcoShop_Usage_Scenario": "Browses during college breaks, looks for affordable organic skincare, influenced by eco-conscious content creators, shares sustainable finds with friends"
+  },
+  "Persona 2": {
+    "Name": "Rohit Agarwal",
+    "Age": 24,
+    "Location": "Bangalore, Karnataka",
+    "Occupation": "Software Developer (Entry-level)",
+    "Demographics": {
+      "Income": "\u20b945,000/month",
+      "Education": "Bachelor's in Computer Science",
+      "Family_Size": "Lives independently",
+      "Tech_Savviness": "Very High"
+    },
+    "Sustainability_Values": {
+      "Primary_Drivers": [
+        "Data-driven awareness of climate change",
+        "Health consciousness",
+        "Future-oriented mindset",
+        "Tech industry culture influence"
+      ],
+      "Sustainability_Priorities": [
+        "Organic food and supplements",
+        "Eco-friendly tech accessories",
+        "Energy-efficient lifestyle",
+        "Carbon footprint tracking"
+      ]
+    },
+    "Digital_Behavior": {
+      "Platform_Usage": {
+        "Reddit": "3+ hours daily",
+        "LinkedIn": "1 hour daily",
+        "YouTube": "2-3 hours daily",
+        "Instagram": "1-2 hours daily"
+      },
+      "Shopping_Habits": [
+        "Researches extensively before purchases",
+        "Values detailed product specifications",
+        "Prefers subscription-based services",
+        "Uses price comparison tools",
+        "Reads expert reviews and tech blogs"
+      ],
+      "Content_Preferences": [
+        "In-depth product reviews",
+        "Technical specifications",
+        "Sustainability impact data",
+        "Expert opinions and research",
+        "How-to guides and tutorials"
+      ]
+    },
+    "Goals": [
+      "Optimize personal health through organic products",
+      "Track and reduce personal carbon footprint",
+      "Discover innovative sustainable technologies",
+      "Build long-term sustainable habits"
+    ],
+    "Pain_Points": [
+      "Lack of detailed sustainability metrics",
+      "Unclear product sourcing information",
+      "Limited integration with health/fitness apps",
+      "Want more data on environmental impact"
+    ],
+    "EcoShop_Usage_Scenario": "Shops during work breaks, focuses on health supplements and organic food, interested in carbon tracking features, values detailed product information"
+  },
+  "Persona 3": {
+    "Name": "Zara Khan",
+    "Age": 19,
+    "Location": "Delhi NCR",
+    "Occupation": "First-year College Student",
+    "Demographics": {
+      "Income": "\u20b98,000/month (allowance)",
+      "Education": "Undergraduate (Commerce)",
+      "Family_Size": "Joint family (6 members)",
+      "Tech_Savviness": "High"
+    },
+    "Sustainability_Values": {
+      "Primary_Drivers": [
+        "Family values and traditions",
+        "Social media influence",
+        "Desire to be trendy and responsible",
+        "Peer group behavior"
+      ],
+      "Sustainability_Priorities": [
+        "Natural beauty and skincare",
+        "Sustainable personal care items",
+        "Eco-friendly gifting options",
+        "Supporting women-led businesses"
+      ]
+    },
+    "Digital_Behavior": {
+      "Platform_Usage": {
+        "Instagram": "5+ hours daily",
+        "Snapchat": "3+ hours daily",
+        "TikTok": "3+ hours daily",
+        "WhatsApp": "Constant use"
+      },
+      "Shopping_Habits": [
+        "Highly influenced by trends and influencers",
+        "Makes quick, impulse purchase decisions",
+        "Shares everything on social media",
+        "Prefers group shopping with friends",
+        "Attracted to limited-time offers and discounts"
+      ],
+      "Content_Preferences": [
+        "Viral trends and challenges",
+        "Beauty tutorials and tips",
+        "Aesthetic product photography",
+        "Influencer unboxing videos",
+        "Interactive social media content"
+      ]
+    },
+    "Goals": [
+      "Stay trendy while being eco-conscious",
+      "Find affordable sustainable beauty products",
+      "Build social media presence with sustainable choices",
+      "Discover new brands through friends and influencers"
+    ],
+    "Pain_Points": [
+      "Very limited budget for premium products",
+      "Confused by conflicting sustainability information",
+      "Wants instant gratification and fast delivery",
+      "Needs social validation for purchase decisions"
+    ],
+    "EcoShop_Usage_Scenario": "Browses during evening hours, influenced by Instagram ads and stories, looks for trending eco-friendly beauty products, likely to abandon cart if process is complex"
+  }
+}

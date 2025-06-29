@@ -1,0 +1,81 @@
+{
+  "Cloud Providers": {
+    "Google Cloud Platform": {
+      "Sustainability Score": 9,
+      "Scalability": 9,
+      "Cost Efficiency": 7,
+      "Gen Z Features Support": 8,
+      "Key Benefits": [
+        "Carbon-neutral by 2030",
+        "Excellent AI/ML capabilities",
+        "Strong analytics tools",
+        "Firebase integration"
+      ],
+      "Recommended Services": [
+        "Cloud Run (serverless)",
+        "Firestore (NoSQL database)",
+        "Cloud Functions",
+        "BigQuery (analytics)"
+      ]
+    },
+    "AWS": {
+      "Sustainability Score": 8,
+      "Scalability": 10,
+      "Cost Efficiency": 8,
+      "Gen Z Features Support": 9,
+      "Key Benefits": [
+        "100% renewable energy by 2025",
+        "Comprehensive service ecosystem",
+        "Strong mobile support",
+        "Advanced personalization tools"
+      ],
+      "Recommended Services": [
+        "Lambda (serverless)",
+        "DynamoDB (NoSQL)",
+        "API Gateway",
+        "Personalize (ML recommendations)"
+      ]
+    },
+    "Microsoft Azure": {
+      "Sustainability Score": 9,
+      "Scalability": 9,
+      "Cost Efficiency": 7,
+      "Gen Z Features Support": 7,
+      "Key Benefits": [
+        "Carbon-negative by 2030",
+        "Strong enterprise integration",
+        "Excellent security features",
+        "AI cognitive services"
+      ],
+      "Recommended Services": [
+        "Azure Functions",
+        "Cosmos DB",
+        "API Management",
+        "Cognitive Services"
+      ]
+    }
+  },
+  "Database Options": {
+    "MongoDB": {
+      "Flexibility": 9,
+      "Performance": 8,
+      "Scalability": 9,
+      "Learning Curve": 6,
+      "Use Case": "Best for rapid development, flexible schema, real-time features"
+    },
+    "PostgreSQL": {
+      "Flexibility": 7,
+      "Performance": 9,
+      "Scalability": 8,
+      "Learning Curve": 8,
+      "Use Case": "Best for complex queries, ACID compliance, traditional e-commerce"
+    },
+    "Firestore": {
+      "Flexibility": 8,
+      "Performance": 9,
+      "Scalability": 10,
+      "Learning Curve": 9,
+      "Use Case": "Best for real-time updates, mobile-first, serverless architecture"
+    }
+  }
+}

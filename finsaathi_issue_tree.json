@@ -1,0 +1,91 @@
+{
+  "Root Problem": "Declining Gen Z User Engagement on EcoShop India",
+  "Level 1 Categories": {
+    "Platform Experience Issues": {
+      "Level 2 Sub-issues": {
+        "Navigation & Discovery": [
+          "Poor search functionality",
+          "Lack of personalized recommendations",
+          "Insufficient product filtering options",
+          "Mobile interface not optimized for Gen Z behavior"
+        ],
+        "Visual Appeal & Content": [
+          "Static product presentations",
+          "Lack of user-generated content",
+          "Missing social proof elements",
+          "No interactive product exploration"
+        ],
+        "Loading Performance": [
+          "Slow page load times (>3 seconds)",
+          "Poor mobile performance",
+          "Heavy images/content slowing browsing"
+        ]
+      }
+    },
+    "Engagement & Retention Issues": {
+      "Level 2 Sub-issues": {
+        "Gamification Absence": [
+          "No reward system for sustainable choices",
+          "Missing eco-impact tracking",
+          "Lack of achievement badges/levels",
+          "No community challenges"
+        ],
+        "Social Integration": [
+          "No social sharing features",
+          "Missing influencer collaborations",
+          "Lack of user reviews/ratings visibility",
+          "No community building features"
+        ],
+        "Personalization Gaps": [
+          "Generic product recommendations",
+          "No behavioral targeting",
+          "Missing sustainability preference tracking",
+          "One-size-fits-all approach"
+        ]
+      }
+    },
+    "Value Proposition Alignment": {
+      "Level 2 Sub-issues": {
+        "Sustainability Communication": [
+          "Unclear environmental impact metrics",
+          "Missing carbon footprint information",
+          "Weak sustainability storytelling",
+          "No transparency in supply chain"
+        ],
+        "Gen Z Values Mismatch": [
+          "Insufficient focus on trendy/viral products",
+          "Missing creator collaborations",
+          "No focus on social causes",
+          "Lack of authentic brand voice"
+        ],
+        "Pricing & Accessibility": [
+          "Products perceived as expensive",
+          "Limited payment options for students",
+          "No subscription/installment options",
+          "Missing loyalty program benefits"
+        ]
+      }
+    },
+    "Technical Infrastructure": {
+      "Level 2 Sub-issues": {
+        "Scalability Issues": [
+          "Database performance problems",
+          "Server response time issues",
+          "Limited concurrent user handling"
+        ],
+        "Analytics Gaps": [
+          "Insufficient user behavior tracking",
+          "Missing engagement metrics",
+          "No A/B testing capabilities",
+          "Limited personalization data"
+        ],
+        "Integration Limitations": [
+          "Poor social media integration",
+          "Limited third-party tool connections",
+          "No API for mobile apps",
+          "Missing payment gateway options"
+        ]
+      }
+    }
+  }
+}

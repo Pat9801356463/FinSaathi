@@ -1,0 +1,169 @@
+{
+  "Core Tables": {
+    "users": {
+      "columns": [
+        "user_id (Primary Key)",
+        "email (Unique)",
+        "password_hash",
+        "first_name",
+        "last_name",
+        "phone",
+        "date_of_birth",
+        "gender",
+        "created_at",
+        "updated_at",
+        "is_active",
+        "user_type (customer/admin)"
+      ],
+      "relationships": "One-to-Many with orders, user_preferences, sustainability_profile"
+    },
+    "products": {
+      "columns": [
+        "product_id (Primary Key)",
+        "name",
+        "description",
+        "price",
+        "category_id (Foreign Key)",
+        "brand",
+        "sku",
+        "stock_quantity",
+        "sustainability_score",
+        "carbon_footprint",
+        "eco_certifications",
+        "images_url",
+        "created_at",
+        "updated_at",
+        "is_active"
+      ],
+      "relationships": "Many-to-One with categories, One-to-Many with order_items, reviews"
+    },
+    "categories": {
+      "columns": [
+        "category_id (Primary Key)",
+        "name",
+        "parent_category_id (Self-referencing FK)",
+        "description",
+        "sustainability_focus",
+        "created_at"
+      ],
+      "relationships": "One-to-Many with products, Self-referencing for subcategories"
+    },
+    "orders": {
+      "columns": [
+        "order_id (Primary Key)",
+        "user_id (Foreign Key)",
+        "order_status",
+        "total_amount",
+        "shipping_address_id (Foreign Key)",
+        "payment_method_id (Foreign Key)",
+        "created_at",
+        "updated_at",
+        "estimated_delivery",
+        "eco_impact_score"
+      ],
+      "relationships": "Many-to-One with users, One-to-Many with order_items"
+    }
+  },
+  "Gen Z Engagement Tables": {
+    "user_preferences": {
+      "columns": [
+        "preference_id (Primary Key)",
+        "user_id (Foreign Key)",
+        "sustainability_priority",
+        "preferred_categories",
+        "price_range",
+        "brand_preferences",
+        "communication_channel",
+        "created_at",
+        "updated_at"
+      ],
+      "relationships": "Many-to-One with users"
+    },
+    "sustainability_profile": {
+      "columns": [
+        "profile_id (Primary Key)",
+        "user_id (Foreign Key)",
+        "total_eco_score",
+        "carbon_offset_contributed",
+        "sustainable_purchases_count",
+        "eco_badges_earned",
+        "current_level",
+        "next_level_progress",
+        "created_at",
+        "updated_at"
+      ],
+      "relationships": "One-to-One with users"
+    },
+    "gamification_activities": {
+      "columns": [
+        "activity_id (Primary Key)",
+        "user_id (Foreign Key)",
+        "activity_type",
+        "points_earned",
+        "badge_earned",
+        "eco_impact_value",
+        "created_at",
+        "related_order_id (Optional FK)"
+      ],
+      "relationships": "Many-to-One with users, Optional relation to orders"
+    },
+    "social_interactions": {
+      "columns": [
+        "interaction_id (Primary Key)",
+        "user_id (Foreign Key)",
+        "interaction_type (review/share/recommend)",
+        "product_id (Foreign Key)",
+        "content",
+        "visibility (public/private)",
+        "likes_count",
+        "created_at"
+      ],
+      "relationships": "Many-to-One with users and products"
+    }
+  },
+  "Analytics & Personalization Tables": {
+    "user_behavior_tracking": {
+      "columns": [
+        "tracking_id (Primary Key)",
+        "user_id (Foreign Key)",
+        "session_id",
+        "page_visited",
+        "action_type",
+        "product_id (Optional FK)",
+        "time_spent",
+        "device_type",
+        "referrer_source",
+        "timestamp"
+      ],
+      "relationships": "Many-to-One with users"
+    },
+    "recommendations": {
+      "columns": [
+        "recommendation_id (Primary Key)",
+        "user_id (Foreign Key)",
+        "product_id (Foreign Key)",
+        "recommendation_type",
+        "confidence_score",
+        "reason",
+        "created_at",
+        "clicked",
+        "purchased"
+      ],
+      "relationships": "Many-to-One with users and products"
+    },
+    "ab_tests": {
+      "columns": [
+        "test_id (Primary Key)",
+        "test_name",
+        "user_id (Foreign Key)",
+        "variant",
+        "metric_tracked",
+        "conversion_event",
+        "start_date",
+        "end_date",
+        "is_active"
+      ],
+      "relationships": "Many-to-One with users"
+    }
+  }
+}
