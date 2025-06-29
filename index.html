@@ -13,9 +13,9 @@
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <h1 class="text-2xl font-bold">FinSaathi</h1>
       <nav class="space-x-4">
-        <a href="#" id="home-link" class="hover:underline">Home</a>
-        <a href="#product-grid" id="products-link" class="hover:underline">Products</a>
-        <a href="#" id="dashboard-link" class="hover:underline">Dashboard</a>
+        <a href="#" onclick="scrollToTop()" class="hover:underline">Home</a>
+        <a href="#product-grid" class="hover:underline">Products</a>
+        <a href="#" onclick="alert('Dashboard coming soon!')" class="hover:underline">Dashboard</a>
       </nav>
     </div>
   </header>
@@ -25,12 +25,15 @@
     <section class="text-center my-12">
       <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Shop Sustainably, Live Responsibly</h2>
       <p class="text-base sm:text-lg text-gray-600">FinSaathi helps you track your eco-impact and shop green-certified brands.</p>
-      <button id="explore-btn" class="mt-6 px-6 py-3 bg-green-500 text-white rounded-xl shadow hover:bg-green-600 transition">Explore Now</button>
+      <button onclick="document.getElementById('product-grid').scrollIntoView({ behavior: 'smooth' });"
+        class="mt-6 px-6 py-3 bg-green-500 text-white rounded-xl shadow hover:bg-green-600 transition">
+        Explore Now
+      </button>
     </section>
 
     <!-- Product Grid -->
     <section id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 product-grid">
-      <!-- Products will be injected via JavaScript -->
+      <!-- Products will be rendered by app.js -->
     </section>
   </main>
 
@@ -40,6 +43,11 @@
   </footer>
 
   <script src="app.js"></script>
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
 </body>
 </html>
 
